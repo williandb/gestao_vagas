@@ -1,4 +1,7 @@
 package br.com.willianbittencourt.gestao_vagas.exceptions;
 
-public class UserFoundException {
+public class UserFoundException extends RuntimeException{
+    public UserFoundException(){
+        super("Usuário já existente!");
+    }
 }

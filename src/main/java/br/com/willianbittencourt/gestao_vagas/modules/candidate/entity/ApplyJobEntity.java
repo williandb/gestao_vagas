@@ -1,4 +1,4 @@
-package br.com.willianbittencourt.gestao_vagas.modules.candidate.entities;
+package br.com.willianbittencourt.gestao_vagas.modules.candidate.entity;
 
 import java.time.LocalDateTime;
 import java.util.UUID;

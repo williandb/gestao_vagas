@@ -1,4 +1,4 @@
-package br.com.willianbittencourt.gestao_vagas.modules.candidate.repositories;
+package br.com.willianbittencourt.gestao_vagas.modules.candidate.repository;
 
 import java.util.UUID;
 

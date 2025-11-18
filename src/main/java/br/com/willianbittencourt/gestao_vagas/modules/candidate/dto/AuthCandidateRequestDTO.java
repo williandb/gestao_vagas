@@ -1,4 +1,4 @@
 package br.com.willianbittencourt.gestao_vagas.modules.candidate.dto;
 
-public class AuthCandidateRequestDTO {
+public record AuthCandidateRequestDTO(String username, String password) {
 }

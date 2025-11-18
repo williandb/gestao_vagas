@@ -1,4 +1,7 @@
 package br.com.willianbittencourt.gestao_vagas.exceptions;
 
-public class CompanyNotFoundException {
+public class CompanyNotFoundException extends RuntimeException {
+    public CompanyNotFoundException() {
+        super("Company not found");
+    }
 }
